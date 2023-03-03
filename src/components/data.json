@@ -1,0 +1,72 @@
+[
+    {"id":1,
+    "pictureUrl": "https://getthelookar.vteximg.com.br/arquivos/ids/170095-1000-1000/230167_edp-givenchy-linterdit-x-125-ml-muestra-edt-givenchy-linterdit-x-1-ml_imagen-1.jpg?v=637998107602100000",
+    "brand":"Givenchy",
+    "name":"L'Interdit",
+    "category":"Premium",
+    "origen":"Francia",
+    "gender":"Mujer",
+    "ml":100,
+    "stock":10,
+    "price":30000
+    },
+    {
+    "id":2,
+    "pictureUrl": "https://perfugroupar.vtexassets.com/arquivos/ids/158182/3274872368019_3.jpg?v=637681173294930000",
+    "brand":"Givenchy",
+    "name":"Gentleman",
+    "category":"Premium",
+    "origen":"Francia",
+    "gender":"Mujer",
+    "ml":50,
+    "stock":5,
+    "price":30000
+    },
+    {
+    "id":3,
+    "brand":"Dior",
+    "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/174449/3348900606715-2.jpg?v=637889080648270000",
+    "name":"Pure Poison",
+    "category":"Premium",
+    "origen":"Francia",
+    "gender":"Mujer",
+    "ml":100,
+    "stock":10,
+    "price":35000
+    },
+    {
+    "id":4,
+    "pictureUrl": "https://farmalife.vteximg.com.br/arquivos/ids/175174-1200-1200/8411061839669.jpg?v=637581510681870000",
+    "brand":"Antonio Banderas",
+    "name":"Blue Seduction",
+    "category":"Low Cost",
+    "origen":"España",
+    "gender":"Mujer",
+    "ml":100,
+    "stock":10,
+    "price":30000
+    },
+    {"id":5,
+    "pictureUrl": "https://getthelookar.vteximg.com.br/arquivos/ids/170095-1000-1000/230167_edp-givenchy-linterdit-x-125-ml-muestra-edt-givenchy-linterdit-x-1-ml_imagen-1.jpg?v=637998107602100000",
+    "brand":"Givenchy",
+    "name":"L'Interdit",
+    "category":"Premium",
+    "origen":"Francia",
+    "gender":"Mujer",
+    "ml":100,
+    "stock":10,
+    "price":30000
+    },
+    {
+    "id":6,
+    "pictureUrl": "https://perfugroupar.vtexassets.com/arquivos/ids/158182/3274872368019_3.jpg?v=637681173294930000",
+    "brand":"Givenchy",
+    "name":"Gentleman",
+    "category":"Premium",
+    "origen":"Francia",
+    "gender":"Mujer",
+    "ml":50,
+    "stock":5,
+    "price":30000
+    }
+    ]

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@100;400&display=swap');
+
+h1{
+  font-family: 'Gloock', serif;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style:none;
+}
+.containerProvisorio{
+  background-color: #ffb4ce;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.ulProvisorio{
+  display: inline-flex;
+}
+
+.itemListContainer{
+background-color: #cfcfcf60;
+}
+
+.imgItem{
+  height:150px
+}
+
+.item{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin: 30px;
+}
+
+.itemContainer{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+
+text-align: center;
+}
+
+.displayCount{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:10px
+}
+
+button{
+  border:0px;
+  padding:5px
+}
+.displayButton{
+  width:100px;
+}
+.spanDisplay{
+  width:50px;
+  text-align: center;
+}
+.addButton{
+  width: 250px;
+}

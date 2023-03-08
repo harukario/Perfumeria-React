@@ -12,12 +12,17 @@ const ItemList = (({datos}) => {
                       name={dato.name}
                       price={dato.price}
                       picture={dato.pictureUrl}
-                      stock={dato.stock}/>
+                      stock={dato.stock}
+                      category={dato.category}
+                      />
                     )
                 }) 
                  }
+
             </div>  
         )
+        
 })
+
 
 export default ItemList

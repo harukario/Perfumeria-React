@@ -1,10 +1,14 @@
 import React from 'react'
 import CartWidget from './CartWidget'
 import { useState } from 'react'
+import { Link} from "react-router-dom";
+
 
 const Navbar = () => {
   const [display, setDisplay] = useState(false)
-  const onClick = () =>{
+ 
+
+  const show = () =>{
     
     if (display==false){
       setDisplay(true)
@@ -13,35 +17,37 @@ const Navbar = () => {
   
   } 
 
+
   const Categorias =()=>{
     return(
-    <div id="categorias" className="search-results">
-      <ul>
-        <li>Hombre</li>
-        <li>Mujer</li>
-        <li>Novedades</li>
-      </ul>
-    </div>)
-  }
+      <div id="categorias" className="search-results">
+        <Link to={`/category/${"Premium"}`}> <button> Premium </button> </Link>
+        <Link to={`/category/${"Low Cost"}`}> <button> Low Cost </button> </Link>
+      </div>
+    )}
 
   return (
-
+    
     <div className='containerProvisorio'> 
-      <img src="public\logo.svg" alt="miLogo"/>
+    <Link to={``}> 
+      <div className='tituloLogo'>
+      <img src="logo.svg" alt="miLogo"/>
       <h1>Perfumeria </h1>
-       
+      </div>
+    </Link>
       
      <ul className='ulProvisorio'>
-        <button> Inicio</button>
+         <Link to={``}> <button> Inicio </button> </Link> 
         <button> Ofertas</button>
-        <input type="submit" value="Categorias" onClick={onClick} />
-        { display ? Categorias() : null }
+        <Link to={`/catalogue`}> <button> Productos </button></Link>
         
-        <button> Fragancias</button>
-        <button> Contacto</button>
+        <input type="submit" value="Categorias" onClick={show} />
+        { display ? Categorias() : null } 
+        
+
     </ul>
     
-     <CartWidget/>
+  <CartWidget/>
    
     </div>
     

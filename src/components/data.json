@@ -8,7 +8,8 @@
     "gender":"Mujer",
     "ml":100,
     "stock":10,
-    "price":30000
+    "price":30000,
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
     },
     {
     "id":2,
@@ -20,7 +21,9 @@
     "gender":"Mujer",
     "ml":50,
     "stock":5,
-    "price":30000
+    "price":30000,   
+     "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
+
     },
     {
     "id":3,
@@ -32,7 +35,9 @@
     "gender":"Mujer",
     "ml":100,
     "stock":10,
-    "price":35000
+    "price":35000,
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
+
     },
     {
     "id":4,
@@ -44,7 +49,9 @@
     "gender":"Mujer",
     "ml":100,
     "stock":10,
-    "price":30000
+    "price":30000,
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
+
     },
     {"id":5,
     "pictureUrl": "https://getthelookar.vteximg.com.br/arquivos/ids/170095-1000-1000/230167_edp-givenchy-linterdit-x-125-ml-muestra-edt-givenchy-linterdit-x-1-ml_imagen-1.jpg?v=637998107602100000",
@@ -55,7 +62,9 @@
     "gender":"Mujer",
     "ml":100,
     "stock":10,
-    "price":30000
+    "price":30000,
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
+
     },
     {
     "id":6,
@@ -67,6 +76,8 @@
     "gender":"Mujer",
     "ml":50,
     "stock":5,
-    "price":30000
+    "price":30000,
+    "detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat massa lorem, vitae blandit arcu pharetra sit amet. Mauris fringilla quis mauris ac tempor. Aenean id lectus aliquet, sodales sapien vitae, pellentesque dui. Maecenas augue erat, auctor in pellentesque varius, cursus vel arcu. Quisque sodales pretium vulputate. Phasellus cursus arcu et ipsum posuere tristique. Nam a consequat turpis, quis ullamcorper ligula. Sed cursus tempor elit, id hendrerit tortor dignissim eu. Morbi blandit eros ac leo mattis mattis. Donec dictum aliquam iaculis. Aliquam erat volutpat. Integer vestibulum nec metus at hendrerit."
+
     }
     ]

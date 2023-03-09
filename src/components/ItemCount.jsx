@@ -32,16 +32,17 @@ const ItemCount = ({stock, productName, price}) => {
     
   return (
     <>
-     
-    <div className='displayCount'>
-        <button className='displayButton' onClick={()=> less()}> - </button>
-        <span className='spanDisplay'> {cantidad} </span>
-        <button className='displayButton' onClick={()=> add ()}> + </button>
-    </div>
+     <div className='itemCount'>
+        <div className='displayCount'>
+            <button className='displayButton' onClick={()=> less()}> - </button>
+            <span className='spanDisplay'> {cantidad} </span>
+            <button className='displayButton' onClick={()=> add ()}> + </button>
+        </div>
+        <button className='addButton' onClick={()=> added ()} > Agregar al carrito </button>
     <div>
-    <button className='addButton' onClick={()=> added ()} > Agregar al carrito </button>
+   
     </div>
-    
+    </div>
     </>
     
   )

@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     
     <div className='containerProvisorio'> 
-    <Link to={``}> 
+    <Link className="link" to={``}> 
       <div className='tituloLogo'>
       <img src="logo.svg" alt="miLogo"/>
       <h1>Perfumeria </h1>
@@ -38,7 +38,7 @@ const Navbar = () => {
       
      <ul className='ulProvisorio'>
          <Link to={``}> <button> Inicio </button> </Link> 
-        <button> Ofertas</button>
+        
         <Link to={`/catalogue`}> <button> Productos </button></Link>
         
         <input type="submit" value="Categorias" onClick={show} />

@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Cart from "./components/Cart";
 import Welcome from "./components/Welcome";
 import Navbar from "./components/Navbar";
-import ItemDetailContainer from "./components/ItemDetail";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 const App =()=>{
   return (
     <>

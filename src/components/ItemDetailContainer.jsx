@@ -1,36 +1,36 @@
 import React from 'react'
-import ItemDetail from './ItemDetail'
-import data from './data.json'
-import { useParams } from 'react-router-dom'
-
+import { useEffect, useState } from 'react';
+import data from './data.json';
+import { useParams } from 'react-router-dom';
+import ItemDetail from './ItemDetail';
 const ItemDetailContainer = () => {
-  const datos= data
-  const {id} = useParams();
-  const getData =()=>{
-      return new Promise ((resolve, reject)=>{
+    const { id } =useParams();
 
-       if (datos ==""){
-          reject (new Error ("No hay datos"))
-         }
+    const [datos, setDatos] = useState ([]);
 
-      else (
-          setTimeout (()=>{
-              resolve(datos)
-          },2000))
-     }) 
-  }
+    useEffect(()=>{
+        const getDatos = new Promise( (resolve,reject) =>{
 
-  getData()
-  .then ((datos) => {console.log( datos)})
-  .catch ((error)=>{ console.log("Error: "+ error)});
-  
-       
-  const filtrarId = datos.filter((dato)=> dato.id === id)
+            if (datos == []){
+                reject (console.log("No hay datos"))}
+            else {
+                resolve (data)
+            }
+          
+        });
+        getDatos.then((data)=>{
+            console.log(data);
+            setDatos(data);
+        })
+        getDatos.catch (()=>{console.log("ocurrio un error")})
+    },[])
+
+        const filtrarId = datos.filter((dato)=> dato.id == id)
+        
   return (
     <div>
     {id ? <ItemDetail datos={filtrarId} /> : <ItemDetail datos={datos} /> }
   </div>
-    
   )
 }
 
